@@ -363,3 +363,59 @@ section{
     font-size: 3rem;
     color: var(--main-color);
 }
+.skills h2{
+    margin-bottom: 2rem;
+}
+.skills{
+    margin: 0 auto;
+}
+.skill-bars{
+    padding: 25px 30px;
+    background: #fff;
+    border: 5px solid var(--main-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.skill-bars .bar{
+    margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+    margin-top:0 ;
+}
+.skill-bars .bar .info{
+    margin-bottom: 5px;
+    font-size: large;
+}
+.skill-bars .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+.bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+.bar .progress-line.javascript span{
+    width: 40%;
+    background-color: gold;
+}
+.bar .progress-line.flask span{
+    width: 30%;
+    background-color: rgb(10,0,245);
+}
+.bar .progress-line.css span{
+    width: 80%;
+    background-color: greenyellow;
+}
+.bar .progress-line.html span{
+    width: 90%;
+    background-color: orangered;
+}
+
